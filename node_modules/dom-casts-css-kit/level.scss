@@ -1,0 +1,13 @@
+@mixin add-level-frames($levelClass, $hardWallClass) {
+  @for $i from 1 through 6 {
+    .#{$levelClass}-#{$i} {
+      background-position: #{($i - 1) * -650}px 0;
+    }
+
+    .#{$hardWallClass}-#{$i} {
+      .#{$hardWallClass} {
+        background-position: #{($i - 1) * -50}px 0;
+      }
+    }
+  }
+}

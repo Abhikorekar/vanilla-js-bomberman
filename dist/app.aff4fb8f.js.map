@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,gBAAgB;IAClB,OAAO;IACP,WAAW;IACX,WAAW;IACX,YAAY;AAChB","sources":["src/app/core/constants.js"],"sourcesContent":["const levelItemType = {\r\n    EMPTY: 'Empty',\r\n    SOFT_WALL: 'SoftWall',\r\n    HARD_WALL: 'HardWall',\r\n    OUTER_WALL: 'OuterWall',\r\n};"],"names":[],"version":3,"file":"app.aff4fb8f.js.map","sourceRoot":"/__parcel_source_root/"}

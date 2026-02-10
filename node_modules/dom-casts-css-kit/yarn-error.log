@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/juan/.nvm/versions/node/v14.13.0/bin/node /Users/juan/.nvm/versions/node/v14.13.0/bin/yarn init
+
+PATH: 
+  /Users/juan/.nvm/versions/node/v14.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Volumes/juan/dev/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/juan/.nvm/versions/node/v14.13.0/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:314:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:314:20)
+      at emitKeys (internal/readline/utils.js:344:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:307:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,73 @@
+@mixin add-bomb-frames($class) {
+  .#{$class}-1 {
+    background-position: 0 0;
+  }
+
+  .#{$class}-2 {
+    background-position: -50px 0;
+  }
+
+  .#{$class}-3 {
+    background-position: -100px 0;
+  }
+
+  .#{$class}-4 {
+    background-position: -150px 0;
+  }
+
+  .#{$class}-5 {
+    background-position: -200px 0;
+  }
+
+  .#{$class}-6 {
+    background-position: -250px 0;
+  }
+
+  .#{$class}-7 {
+    background-position: 0 -50px;
+  }
+
+  .#{$class}-8 {
+    background-position: -50px -50px;
+  }
+
+  .#{$class}-9 {
+    background-position: -100px -50px;
+  }
+
+  .#{$class}-10 {
+    background-position: -150px -50px;
+  }
+
+  .#{$class}-11 {
+    background-position: -200px -50px;
+  }
+
+  .#{$class}-12 {
+    background-position: -250px -50px;
+  }
+
+  .#{$class}-13 {
+    background-position: 0 -100px;
+  }
+
+  .#{$class}-14 {
+    background-position: -50px -100px;
+  }
+
+  .#{$class}-15 {
+    background-position: -100px -100px;
+  }
+
+  .#{$class}-16 {
+    background-position: -150px -100px;
+  }
+
+  .#{$class}-17 {
+    background-position: -200px -100px;
+  }
+
+  .#{$class}-18 {
+    background-position: -250px -100px;
+  }
+}
