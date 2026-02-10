@@ -1,13 +1,15 @@
 {
-  "name": "dom",
+  "name": "vanilla-js-bomberman",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "parcel src/app/index.html"
+    "start": "npx parcel src/app/core/index.html",
+    "build": "npx parcel build src/app/core/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abhikorekar",
   "license": "ISC",
-  "description": "",
+  "description": "Bomberman-style browser game built with Vanilla JavaScript and Parcel",
   "devDependencies": {
     "@parcel/transformer-sass": "2.16.4",
     "parcel": "2.16.4"
