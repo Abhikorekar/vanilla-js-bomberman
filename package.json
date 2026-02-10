@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx parcel src/app/core/index.html",
+    "start": "parcel src/app/core/index.html",
     "build": "parcel build src/app/core/index.html"
   },
-  "keywords": [],
-  "author": "Abhikorekar",
-  "license": "ISC",
-  "description": "Bomberman-style browser game built with Vanilla JavaScript and Parcel",
   "devDependencies": {
-    "@parcel/transformer-sass": "2.16.4",
-    "parcel": "2.16.4"
+    "parcel": "2.16.4",
+    "@parcel/transformer-sass": "2.16.4"
   },
   "dependencies": {
     "dom-casts-css-kit": "^1.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
