@@ -1,1 +1,0 @@
-{"mappings":"AAAA,MAAM;IACF,OAAO,cAAc,KAAK,CAAC;AAC/B","sources":["src/app/core/level-item.js"],"sourcesContent":["class LevelItem {\r\n    type = levelItemType.EMPTY;\r\n}"],"names":[],"version":3,"file":"app.ad5572ac.js.map","sourceRoot":"/__parcel_source_root/"}

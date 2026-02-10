@@ -1,1 +1,0 @@
-{"mappings":"AAAQ,MAAM,QAAQ,IAAI;AAClB,MAAM,MAAM","sources":["src/app/app.js"],"sourcesContent":["        const level = new Level();\r\n        level.render();"],"names":[],"version":3,"file":"app.1fb1e2b0.js.map","sourceRoot":"/__parcel_source_root/"}
