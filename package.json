@@ -2,10 +2,11 @@
   "name": "vanilla-js-bomberman",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-  "start": "node ./node_modules/parcel/bin/cli.js src/app/index.html",
-  "build": "node ./node_modules/parcel/bin/cli.js build src/app/index.html"
-},
+"scripts": {
+  "start": "parcel src/app/index.html",
+  "build": "parcel build src/app/index.html"
+}
+,
   "devDependencies": {
     "parcel": "2.16.4",
     "@parcel/transformer-sass": "2.16.4"
